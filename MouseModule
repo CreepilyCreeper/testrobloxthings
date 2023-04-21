@@ -1,4 +1,4 @@
-local module = {}
+local library = {}
 local player = game.Players.LocalPlayer
 local normalMouse = player:GetMouse()
 local camera = workspace.CurrentCamera
@@ -238,8 +238,8 @@ end})
 
 
 
-function module:GetMouse()
+function library:GetMouse()
 	return mouse
 end
 
-return module
+return library
